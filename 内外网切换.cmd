@@ -12,8 +12,8 @@
 @set choose=
 @set /p choose=-----请选择操作 [1、开启内网 2、开启外网]^:  
 
-@if /i "%choose%"=="1" goto START_neiwang
-@if /i "%choose%"=="2" goto START_waiwang
+@if /i "%choose%"=="1" goto START_neiwang_Y
+@if /i "%choose%"=="2" goto START_waiwang_Y
 
 @echo.   
 
